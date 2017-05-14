@@ -1,0 +1,57 @@
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  #main {
+    position: relative;
+    top: 15%;
+  }
+
+  #codedBy {
+    position: absolute; 
+    top: 70%;
+    right: 40%;
+  }
+
+}
+
+body {
+  background-color: steelblue;
+  font-family: Dancing Script;
+  transition: all 1s;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  width: 100%;
+}
+
+.jumbotron {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+#title {
+  font-size: 4em;
+}
+
+.jumbotron p {
+  font-size: 2em;
+}
+
+#codedBy {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 300px;
+  color: black;
+}
+
+a {
+  color: black;
+}
